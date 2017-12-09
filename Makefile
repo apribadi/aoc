@@ -1,2 +1,2 @@
 default:
-	gcc -o aoc aoc.c -std=c11
+	gcc -o aoc aoc.c -std=c11 -Wall -Werror
