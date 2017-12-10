@@ -8,6 +8,7 @@ typedef int64_t i64;
 typedef uint8_t u8;
 typedef int8_t i8;
 
+
 i64 parse(u8 * p, i64 n) {
   i64 r = 0;
   for (i64 i = 0; i < n; ++i) {
